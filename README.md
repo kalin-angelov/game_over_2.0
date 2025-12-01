@@ -2,6 +2,6 @@
 
 Creating new version of my first project with React - Game Over
 
-- Main Page
+- Home Page
 
-![Screenshot](./public/screenshot/screenshot-homePage.png)
+![Screenshot](./public/screenshots/screenshot-homePage.png)
