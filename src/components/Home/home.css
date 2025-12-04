@@ -1,21 +1,16 @@
 .home {
     text-align: center;
 
-    .main-header {
-        font-size: 11rem;
-    }
-
     .main-page-img {
-        width: 500px;
-        /* border: 0.4rem double white; */
+        max-width: 100%;
+        height: auto;
     }
 
     .container {
         position: relative;
         padding: 0.6rem;
         margin: 3rem;
-        width: 50rem;
-        height: 10rem;
+        width: min(50rem, 90%);
         border: 2px solid white;
         text-align: left;
 
@@ -27,7 +22,7 @@
         
         i {
             font-size: 1.6rem;
-            padding: 0.5rem;
+            padding: 0.8rem;
             position: absolute;
             right: 0;
             bottom: 0;
