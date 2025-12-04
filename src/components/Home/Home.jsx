@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
     return (
         <main className="home">
-            <img className="main-page-img" src="/images/bartender.png" alt="Medieval bartender" />
+            <img className="main-page-img" src="/images/bartender.png" width={500} alt="Medieval bartender" />
 
             <div className="container">
                 <p className="name">Bartender</p>
