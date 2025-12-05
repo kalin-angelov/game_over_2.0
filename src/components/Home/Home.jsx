@@ -13,7 +13,7 @@ const Home = () => {
 
             <div className="btn-container">
                 <Link to="/catalog" className="request-btn">CHECK REQUEST</Link>
-                <Link to="/create" className="request-btn">CREATE REQUEST</Link>
+                <Link to="/register" className="request-btn">CREATE REQUEST</Link>
             </div>
         </main>
     );
