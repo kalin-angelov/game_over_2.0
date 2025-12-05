@@ -1,6 +1,7 @@
 @import url("https://use.fontawesome.com/releases/v6.4.0/css/all.css");
 
 @import "./css/index.css";
+@import "./css/entryForm.css";
 
 * {
     margin: 0;
@@ -35,4 +36,5 @@ button {
 
 a {
     text-decoration: none;
+    color: white;
 }
