@@ -1,10 +1,11 @@
 import { useFormStatus } from "react-dom";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import { emailChecker } from "../../utils/emailChecker";
+import { passChecker } from "../../utils/passChecker";
 
 const Register = () => {
- 
+    const navigate = useNavigate();
     const { pending } = useFormStatus();
 
     const register = async (formData) => {
@@ -16,7 +17,8 @@ const Register = () => {
             const validPassword = passChecker(pass, rePass);
 
             if (validEmail && validPassword) {
-                alert("Welcome!")
+                alert("Welcome!");
+                navigate("/login");
             }
 
         } catch (error) {
@@ -38,7 +40,7 @@ const Register = () => {
 
                 <input className="input" type="password" name="rePass" id="rePass" placeholder="Confirm password"/>
 
-                <p className="form-message">Already have an account? <Link to="/">Login</Link></p>
+                <p className="form-message">Already have an account? <Link to="/login">Login</Link></p>
 
                 <button className="button" type="submit" disabled={pending}>Register</button>
 
