@@ -31,6 +31,7 @@
         background-color: black;
         color: greenyellow;
         font-size: 1rem;
+        cursor: pointer;
 
         &::placeholder {
             color: greenyellow;
